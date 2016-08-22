@@ -4,9 +4,9 @@ import path from 'path';
 export default {
   entry: './react-bootstrap-getting-started-step-7/App.js',
   output: {
-    path: path.join(__dirname, 'public'),
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: 'public/'
+    publicPath: 'build/'
   },
   module: {
     loaders: [
