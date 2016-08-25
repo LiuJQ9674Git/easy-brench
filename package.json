@@ -24,11 +24,12 @@
     "bootstrap": "^3.3.5",
     "css-loader": "^0.16.0",
     "file-loader": "^0.8.4",
+    "jquery": "^3.1.0",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
+    "marked": "^0.3.6",
     "react-bootstrap": "^0.25.1",
     "style-loader": "^0.12.3",
     "webpack": "^1.12.0"
   }
-
 }

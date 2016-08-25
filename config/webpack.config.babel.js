@@ -2,12 +2,10 @@ import webpack from 'webpack';
 import path from 'path';
 
 export default {
-  //entry: './react-bootstrap-getting-started-step-7/App.js',
-  entry: './public/assets/js/demo/comments/entry.js',
+  entry: './react-bootstrap-getting-started-step-7/App.js',
   output: {
     path: path.join(__dirname, 'build'),
-    //filename: 'bundle.js',
-    filename: 'commentsbundle.js',
+    filename: 'bundle.js',
     publicPath: 'build/'
   },
   module: {
